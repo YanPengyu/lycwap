@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>询价</title>
+<link href="css/xkwap.css" tppabs="http://www.cbslyc.com/templates/wap/cn/article/xkwap.css" rel="stylesheet" type="text/css" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="grey" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no"/>
+<link rel="apple-touch-icon" href="images/touch-icon-iphone.png" />
+<!--iPad 1 72x72 像素-->
+<link rel="apple-touch-icon" sizes="72x72" href="images/touch-icon-ipad.png" />
+<!--iPhone 4 114x114 像素-->
+<link rel="apple-touch-icon" sizes="114x114" href="images/touch-icon-iphone4.png" />
+</head>
+<body>
+<div class="m">
+    <div class="z3g-headerSmallNew">
+    	<span class="active left">
+        <a href="javascript:history.go(-1);">
+        <div class="z3g-btn active btnArrow btnArrowLeft back" id="share_return">
+        <b> <em></em> </b>
+        <span>返回</span>
+        </div>
+        </a>
+        </span>
+        <span class="center">询价</span>
+        <span class="active right" href="">&nbsp;</span>
+    </div>
+	<div class="share_box">
+    <div id="feedback" class="active" style="padding-top:5px; padding-bottom:20px;">
+            <script language="javascript">function Checkfeedback(){ if (document.myform.para4.value.length == 0) {
+alert('反馈主题 不能为空');
+document.myform.para4.focus();
+return false;}
+if (document.myform.para5.value.length == 0) {
+alert('姓名 不能为空');
+document.myform.para5.focus();
+return false;}
+if (document.myform.para7.value.length == 0) {
+alert('Email 不能为空');
+document.myform.para7.focus();
+return false;}
+if (document.myform.para10.value.length == 0) {
+alert('省份 不能为空');
+document.myform.para10.focus();
+return false;}
+if (document.myform.para12.value.length == 0) {
+alert('信息描述 不能为空');
+document.myform.para12.focus();
+return false;}
+if(!(document.myform.para13_1.checked ||document.myform.para13_2.checked ||document.myform.para13_3.checked ||document.myform.para13_4.checked ||document.myform.para13_5.checked ||false
+)){
+alert('您是怎么找到我们的 不能为空');
+document.myform.para13_1.focus();
+return false;}
+}</script>
+
+<form target="_self" action="http://www.cbslyc.com/index.php?ac=forum&at=save" onsubmit="return forumcreat('1')" name="bbsmainform" method="POST" enctype="multipart/form-data">
+<table class="feedback_table">
+<tbody>
+
+
+<tr>
+<td width="80" class="text">主题</td>
+<td width="157" class="input"><input type="text" class="input-text" size="20" name="title"><span class="info">*</span></td>
+</tr>
+<tr>
+<td width="80" class="text">姓名</td>
+<td width="157" class="input"><input type="text" class="input-text" size="20" name="username"><span class="info">*</span></td>
+</tr>
+
+<tr>
+<td class="text">Email</td>
+<td class="input"><input type="text" class="input-text" size="20" name="email"><span class="info">*</span></td>
+</tr>
+<tr>
+<td class="text">联系电话&nbsp;</td>
+<td class="input"><input type="text" class="input-text" size="20" name="tel"><span class="info"></span></td>
+</tr>
+
+
+<tr>
+<td class="text">信息描述</td>
+<td class="input"><textarea rows="5" cols="20" class="textarea-text" name="content"></textarea><span class="info">*</span></td>
+</tr>
+
+<tr><td class="text">验证码</td>
+<td class="input"><input type="text" style="width:50px" maxlength="8" size="6" id="seccode" class="seccode" onkeyup="pressCaptcha(this)" name="seccode"><img align="absbottom" title="看不清？点击更换验证码" style="cursor: pointer;" onclick="this.src='http://www.cbslyc.com/public/seccode.php'" src="seccode.php" tppabs="http://www.cbslyc.com/public/seccode.php">
+
+
+
+</td>
+</tr>
+<tr><td class="text"></td>
+<td class="submint">
+							<input type="hidden" name="userid" value="">
+							<input type="hidden" name="inputclass" value="add">
+							<input type="hidden" name="btid" value="1">
+							<input type="hidden" name="lng" value="cn">
+							<input type="hidden" name="tokenkey" value="6947879ea3ac8c87d6148c508bf55ab3">
+<input type="submit" class="submit button orange" value="提交信息" name="Submit"></td></tr>
+</tbody></table>
+</form>
+
+        </div>
+ </div>   
+</div>
+</body>
+</html>
